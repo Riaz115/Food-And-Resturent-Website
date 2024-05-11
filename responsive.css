@@ -1,0 +1,80 @@
+@media (max-width: 1024px) {
+}
+@media (max-width: 991px) {
+  /* text content class */
+  .text-content {
+    width: 100%;
+  }
+  /* navbar navitems */
+  .navbar-wrapper {
+    text-align: center;
+    background-color: var(--white);
+  }
+  /* logo */
+  .navbar-brand img {
+    height: 3.375rem;
+  }
+  /* navbar links */
+  .nav-link {
+    line-height: 1.875rem;
+  }
+  /* top banner section */
+  .top-banner {
+    padding: 10.625rem 0 9.275rem;
+  }
+  /* review section */
+  .review-section .carousel-item .carousal-caption p {
+    padding: 0px;
+  }
+}
+/* *****************************
+**************************** */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.0625rem;
+  }
+
+  /* story section */
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+  /* review section */
+  .review-section .carousel-item {
+    padding: 1rem 1.175rem;
+  }
+
+  /* this is newsletter section */
+  .news-letter {
+    width: 75%;
+  }
+  .news-letter .main-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  /* footer section */
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+}
+
+/* ***********************************
+********************************** */
+@media (max-width: 330px) {
+  /* review section */
+  .review-section .carousel-item {
+    padding: 1rem 1.675rem;
+  }
+
+  /* this is footer section */
+  /* footer section */
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.4rem;
+  }
+}
